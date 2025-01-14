@@ -60,3 +60,9 @@ To start a client, go into the client folder and install dependencies/run start 
 cd MetaHaven/client or 'my-folder-name/client'
 yarn && yarn dev
 ```
+## Hosting
+Clients: Inside the root folder there is a netify.toml file. This makes it easy to deploy our client over on Netlify. All you have to do is connect the github repository and Netlify will do the rest following the instructions from the promo file.
+
+Server: go to render  and deploy from Github link its to the netlify and add to your enviroment variables under VITE_SERVER_URL.
+
+
